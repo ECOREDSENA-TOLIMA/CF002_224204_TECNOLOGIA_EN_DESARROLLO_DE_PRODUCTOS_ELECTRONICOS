@@ -1,19 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
+    componenteFormativo: 'Dispositivos electrónicos',
+    descripcionCurso:
+      'Los principales conceptos relacionados con los dispositivos electrónicos semiconductores son la base del hardware de la tecnología que nos rodea actualmente, por tanto, es fundamental comprender su funcionamiento y características para entender la dinámica de sistemas más complejos.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
   },
   menuPrincipal: {
     menu: [
@@ -30,29 +21,75 @@ export default {
       },
       {
         nombreRuta: 'tema1',
+        icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Naturaleza de los semiconductores',
+        desarrolloContenidos: true,
+        subMenu: [],
+      },
+      {
+        nombreRuta: 'tema2',
+        icono: 'far fa-file-alt',
+        numero: '2',
+        titulo: 'Diodos',
         desarrolloContenidos: true,
         subMenu: [
           {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'El diodo ideal',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Circuitos con diodos',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Diodos de propósito especial',
+            hash: 't_2_3',
           },
         ],
       },
-
-      {
-        nombreRuta: 'tema2',
-        numero: '2',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-      },
       {
         nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Transistores',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'El transistor BJT',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Transistor MOSFET',
+            hash: 't_3_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Tiristores',
+        desarrolloContenidos: true,
+        subMenu: [],
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Software de simulación',
+        desarrolloContenidos: true,
+        subMenu: [],
       },
     ],
     subMenu: [
@@ -97,32 +134,73 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      texto:
+        'López Dorado, A. (2011). Circuitos electrónicos básicos.. Editorial Universidad de Alcalá. ',
+      tipo: 'Capítulo del libro',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/53530',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      texto:
+        'García, V. (2012). El Transistor MOSFET. Electrónica Práctica Aplicada [EPA].',
+      tipo: 'Sitio web',
+      link: 'https://www.diarioelectronicohoy.com/blog/el-transistor-mosfet',
+    },
+    {
+      texto: 'SENSORICX. (s. f.). SCR: ¿Qué es y cómo funciona?',
+      tipo: 'Sitio web',
+      link: 'https://sensoricx.com/electronica-de-potencia/la-guia-maxima-scr/',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Circuito',
+      significado:
+        ' conjunto de componentes eléctricos o electrónicos que, juntos e interconectados, proporcionan un camino cerrado para la circulación de la corriente.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Corriente',
+      significado:
+        ' flujo de electrones a través de un material impulsado por la diferencia de potencial entre dos puntos o materiales.',
+    },
+    {
+      termino: 'Electrón',
+      significado:
+        ' partícula subatómica con carga eléctrica negativa que orbita alrededor del núcleo del átomo.',
+    },
+    {
+      termino: 'Hardware',
+      significado:
+        ' parte física y tangible de un sistema electrónico que facilita la interacción con el usuario.',
+    },
+    {
+      termino: 'Polarización',
+      significado:
+        ' forma en la que se interconectan los pines de un dispositivo semiconductor a un polo de alimentación positivo o negativo.',
+    },
+    {
+      termino: 'Voltaje',
+      significado:
+        ' diferencia de potencial eléctrico entre dos puntos de un circuito o dos materiales con carga eléctrica diferente.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Aranzabal, A. (2001). Electrónica básica. Curso de Electrónica Básica en Internet. Universidad del País Vasco. ',
+      link: 'http://www.sc.ehu.es/sbweb/electronica/elec_basica/default.htm ',
+    },
+    {
+      referencia:
+        'Arboledas Brihuega, D. (2010). Electrónica básica.. RA-MA Editorial. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/106571',
+    },
+    {
+      referencia:
+        'Ingeniería Mecafenix. (2018). ¿Qué es un tiristor y cómo funciona? ',
+      link:
+        'https://www.ingmecafenix.com/electronica/que-es-un-tiristor-y-como-funciona/',
     },
   ],
   creditos: [
@@ -135,9 +213,9 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Norma Constanza Morales Cruz',
           cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -145,9 +223,40 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Ángela Rocío Sánchez Ruiz',
+          cargo: 'Experto Temático',
+          centro: 'Centro de Electricidad, Electrónica y Telecomunicaciones',
+        },
+        {
+          nombre: 'Miroslava González H.',
+          cargo: 'Diseñador y Evaluador Instruccional',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Juan Gilberto Giraldo Cortés',
+          cargo: 'Diseñador Instruccional',
+          centro: '',
+        },
+        {
+          nombre: 'Álix Cecilia Chinchilla Rueda',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Viviana Esperanza Herrera Quiñones',
+          cargo: 'Asesora Metodológica',
+          centro: 'Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano',
+          cargo: 'Asesor Pedagógico',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Darío González',
+          cargo: 'Revisión y Corrección de Estilo',
+          centro: 'Regional Tolima - Centro Agropecuario La Granja',
         },
       ],
     },
@@ -155,19 +264,29 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'José Jaime Luis Tang',
           cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Francisco José Vásquez Suárez',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Storyboard e Ilustración',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Nelson Iván Vera Briceño',
+          cargo: 'Animador y Producción Audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Sebastián Trujillo Afanador',
+          cargo: 'Actividad Didáctica',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -175,14 +294,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
+          nombre: 'Javier Mauricio Oviedo',
           cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre validador',
+          nombre: 'Gilberto Naranjo Farfán',
           cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },

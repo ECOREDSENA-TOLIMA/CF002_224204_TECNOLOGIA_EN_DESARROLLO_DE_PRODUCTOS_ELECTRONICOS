@@ -61,10 +61,10 @@ export default {
   100%
     filter: drop-shadow(3px 0px 2px yellow)
     transform: translatey(0px)
-.banner-principal__img img
+/* .banner-principal__img img
   filter: drop-shadow(0px 0px 1px yellow)
   transform: translatey(0px)
-  animation: float 7s ease-in-out infinite
+  animation: float 7s ease-in-out infinite */
 .cajon.color-primario
   background-color: #CBFFF6 !important
 </style>

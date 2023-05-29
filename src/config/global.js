@@ -169,7 +169,7 @@ export default {
         ' partícula subatómica con carga eléctrica negativa que orbita alrededor del núcleo del átomo.',
     },
     {
-      termino: 'Hardware',
+      termino: '<em>Hardware</em>',
       significado:
         ' parte física y tangible de un sistema electrónico que facilita la interacción con el usuario.',
     },
@@ -202,6 +202,11 @@ export default {
       link:
         'https://www.ingmecafenix.com/electronica/que-es-un-tiristor-y-como-funciona/',
     },
+    {
+      referencia:
+        'Tutoriales de electrónica básica. (s. f.). Tutoriales de electrónica básica.',
+      link: 'http://tutorialesdeelectronicabasica.blogspot.com/',
+    },
   ],
   creditos: [
     {
@@ -209,12 +214,12 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del equipo',
+          cargo: 'Responsable del Equipo',
           centro: 'Dirección General',
         },
         {
           nombre: 'Norma Constanza Morales Cruz',
-          cargo: 'Responsable de línea de producción',
+          cargo: 'Responsable de Línea de Producción',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
@@ -265,7 +270,7 @@ export default {
       autores: [
         {
           nombre: 'José Jaime Luis Tang',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñador Web',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
@@ -295,12 +300,12 @@ export default {
       autores: [
         {
           nombre: 'Javier Mauricio Oviedo',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          cargo: 'Validación y Vinculación en Plataforma LMS',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Gilberto Naranjo Farfán',
-          cargo: 'Validación de contenidos accesibles',
+          cargo: 'Validación de Contenidos Accesibles',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],

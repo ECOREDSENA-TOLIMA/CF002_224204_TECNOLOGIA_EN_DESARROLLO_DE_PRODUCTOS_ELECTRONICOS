@@ -9,7 +9,7 @@
 
     p(data-aos="fade-up") El componente semiconductor más simple es conocido como diodo. Básicamente, es un dispositivo semiconductor hecho de la unión de dos semiconductores, uno tipo P y uno tipo N, dentro de un encapsulado. A esto se le conoce como la unión PN:
 
-    p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 6]  Unión PN del diodo
+    p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 6]  <em>Unión PN del diodo</em>
 
     .row.mt-5.col-md-7.m-auto
       .col-md-6.p-0.mb-3
@@ -33,7 +33,7 @@
 
     p.mt-4(data-aos="fade-up") Dependiendo de cómo se conecte la fuente externa al diodo, se tendrán dos polarizaciones posibles. Una es la polarización directa y otra es la polarización inversa, las cuales se pueden ver reflejadas en la siguiente figura.
 
-    p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 7] Polarizaciones
+    p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 7] <em>Polarizaciones</em>
 
     .row.mt-5.col-md-11.m-auto
       .col-md-6.mb-3
@@ -47,7 +47,7 @@
 
     p.mt-5(data-aos="fade-up") Como todo elemento que compone un circuito electrónico, el diodo tiene su respectivo símbolo, el cual puede visualizarse en la siguiente figura. También se puede observar cómo este se relaciona con la unión PN, además se puede ver su aspecto físico típico, aunque es necesario aclarar que no es el único.
 
-    p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 8] Estructura y representación del diodo
+    p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 8] <em>Estructura y representación del diodo</em>
 
     .row.mt-5
       .col-md-5.mb-3
@@ -75,7 +75,7 @@
 
     p.mt-3(data-aos="fade-up") #[strong Un diodo ideal permite el paso de corriente en la condición de polarización directa, mientras que en la condición de polarización inversa se comporta como un elemento aislante, impidiendo el paso de corriente, tal como se diagrama en la siguiente figura.]
 
-    p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 9] Efecto en la corriente dependiendo de la polarización del diodo ideal
+    p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 9] <em>Efecto en la corriente dependiendo de la polarización del diodo ideal</em>
 
     .row.mt-5.col-md-6.m-auto.p-3(style="background-color:#F8F8F8")
       .col-md-6.mb-3
@@ -96,7 +96,7 @@
 
     p(data-aos="fade-up") Se debe tener en cuenta que ningún diodo se comporta de manera ideal, este elemento posee una serie de características eléctricas que determinan su comportamiento y aplicación. Es importante tenerlas en cuenta a la hora de seleccionar o reemplazar un diodo en un circuito.
 
-    p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 10] Curva del diodo
+    p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 10] <em>Curva del diodo</em>
 
     .col-md-9.mt-5.m-auto
       figure
@@ -107,6 +107,8 @@
     p.mt-5(data-aos="fade-up") Gracias a las características propias y el comportamiento de los diodos, se estudian una serie de circuitos típicos con diodos que constituyen sus aplicaciones más destacadas.
 
     p.mt-3(data-aos="fade-up") #[strong Existen al menos tres circuitos que se deben considerar en este aspecto.]
+
+    p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 11] <em>Rectificadores</em>
 
     .row.mt-5
       .col-md-4.mb-3
@@ -144,7 +146,7 @@
             p.mt-4 Estos se subdividen en diodos rectificadores de propósito general (a veces llamados de señal) y diodos rectificadores de potencia. Su diferencia principal radica en sus capacidades de conducción y obviamente en su tamaño.
         
           .col-md-5
-            p.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 12] Tipos de diodos rectificadores
+            p.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 12] <em>Tipos de diodos rectificadores</em>
             figure
               img(src='@/assets/curso/tema2/15.svg', alt='')
 
@@ -157,7 +159,7 @@
             p.mt-4 Esta particularidad en la región inversa de su curva se puede observar en la siguiente figura, donde el voltaje en polarización inversa queda fijo en un voltaje determinado, que en este caso particular es de 8 V. Existen comercialmente muchas referencias de diodos Zener, se resaltan típicamente diodos de 3,3 V, 5 V, 5,6 V y 12 V, por mencionar algunos.
         
           .col-md-5
-            p.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 13] Curva del diodo Zener
+            p.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 13] <em>Curva del diodo Zener</em>
             figure
               img(src='@/assets/curso/tema2/16.svg', alt='')  
 
@@ -170,7 +172,7 @@
             p.mt-4 En la siguiente figura, se puede observar el aspecto físico de los mismos y su encapsulado típico, pero no es el único con el desarrollo de los mismos para la iluminación de espacio o como indicadores en equipos electrónicos como celulares, tablets, TV, etc. Sus encapsulados son muy variados en forma y tamaño.
         
           .col-md-5
-            p.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 14] Encapsulado típico de los diodos LED
+            p.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 14] <em>Encapsulado típico de los diodos LED</em>
             figure
               img(src='@/assets/curso/tema2/17.svg', alt='')
 
@@ -181,7 +183,7 @@
             p.mt-4 Hay que tener en cuenta que estos valores son los típicos para los diodos indicadores. Los diodos de potencia manejan algunos valores tanto en corriente como en voltaje superiores, ya que en promedio los leds mencionados en la tabla anterior consumen alrededor de 20mA. Un diodo de potencia, dependiendo de sus características, podría llegar a consumir hasta 500mA.
         
           .col-md-5
-            p.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Tabla 1]  Cuadro de clasificación del diodo según color
+            p.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Tabla 1] <em>Cuadro de clasificación del diodo según color</em>
             figure
               img(src='@/assets/curso/tema2/18.svg', alt='')
 

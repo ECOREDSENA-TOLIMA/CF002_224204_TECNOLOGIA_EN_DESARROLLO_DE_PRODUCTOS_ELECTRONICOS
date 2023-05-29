@@ -27,7 +27,7 @@
 
             p.mt-3(data-aos="fade-up") Un SCR, como cualquier rectificador, requiere estar correctamente polarizado y superar el voltaje umbral, además de recibir un pequeño pulso de corriente y un mínimo voltaje a través de su compuerta. Estos datos usualmente los brinda el fabricante del dispositivo, pero a diferencia de los transistores, por ejemplo, él no requiere mantener esa corriente, es un disparo momentáneo que lo activa y, mientras sus demás condiciones de polarización entre ánodo y cátodo se mantengan, este se mantendrá conduciendo.
 
-            p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 23] Aspecto físico y simbología del SCR
+            p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 23] <em>Aspecto físico y simbología del SCR</em>
 
             .bg-white.p-3.row.mt-4(style="border: 1px #707070 solid")
               .col-md-5.text-center.mb-3
@@ -54,7 +54,7 @@
 
             p.mt-3(data-aos="fade-up") Dada la forma de onda de la corriente AC, un SCR solo podría conducir corriente en el semiciclo positivo de la onda AC, ya que en el semiciclo negativo este estaría polarizado inversamente. Si se activa la compuerta del SCR con un disparo de corriente y voltaje adecuados, conducirá solo si está en el semiciclo positivo. Cuando viene el semiciclo negativo, este deja de conducir y se inactiva y volverá a conducir cuando se vuelva a enviar el impulso y esté de nuevo en el semiciclo positivo, tal como se puede observar en la siguiente figura, donde el pulso que dispara al SCR en cada semiciclo positivo es controlado por la acción del potenciómetro que regula la corriente y el condensador.
 
-            p.mt-4.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 24] Control de disparo de un SCR a través de un resistor variable
+            p.mt-4.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 24] <em>Control de disparo de un SCR a través de un resistor variable</em>
 
             figure.mt-4
               img(data-aos="fade-up" src="@/assets/curso/tema4/3.svg")
@@ -67,7 +67,7 @@
 
             p.mt-3(data-aos="fade-up") Como se puede observar en la  figura, por un lado, se tiene la estructura interna del TRIAC con los SCR en antiparalelo, y por otro, su símbolo esquemático, donde se observa un componente que puede conducir corriente en ambos sentidos y con un pin de compuerta que permite disparo del dispositivo en el instante que se requiera.
 
-            p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 25] Tiristor TRIAC
+            p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 25] <em>Tiristor TRIAC</em>
 
             .bg-white.p-3.mt-4.col-md-7.m-auto(style="border: 1px #707070 solid")
                 figure.mt-3
@@ -82,7 +82,7 @@
             p.mt-3(data-aos="fade-up") Como se puede observar en la siguiente figura, se tiene un circuito que está alimentando de manera controlada una lámpara en corriente alterna, al controlar el ángulo de disparo del TRIAC a través del circuito formado por la resistencia variable y el condensador, que controlan el disparo del mismo. En el oscilograma, se puede observar que a la carga solo se le está entregando la mitad de la potencia total, ya que el disparo del TRIAC, en cada semiciclo, se hace sobre los 90° de la señal.
 
 
-            p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 26] Control de ángulo de disparo del TRIAC
+            p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 26] <em>Control de ángulo de disparo del TRIAC</em>
 
             figure.mt-4
               img(data-aos="fade-up" src="@/assets/curso/tema4/5.svg")

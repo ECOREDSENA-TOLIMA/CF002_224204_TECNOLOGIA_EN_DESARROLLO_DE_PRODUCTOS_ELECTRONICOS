@@ -15,7 +15,7 @@
 
     p.mt-5(data-aos="fade-up") Los elementos semiconductores se encuentran en medio de la balanza entre conductor y aislante. Cuentan usualmente con cuatro electrones de valencia y, bajo ciertas condiciones, pueden convertirse en un conductor o en un aislante; pero en su estado natural, resulta muy complejo controlar su comportamiento, por lo cual, en la producción de los componentes semiconductores que se utilizan en los equipos electrónicos, se hace necesario agregar una serie de impurezas a los materiales para lograr alterar sus propiedades y obtener un mayor control de sus propiedades conductoras o aislantes.
 
-    p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 1] Comportamiento de los conductores y aislantes versus los semiconductores.
+    p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 1] <em>Comportamiento de los conductores y aislantes versus los semiconductores.</em>
 
     figure.mt-5.col-md-5.m-auto
       img.image_floating(src="@/assets/curso/tema1/1.svg" data-aos="fade-up")
@@ -31,7 +31,7 @@
     .cajon.color-primario.p-5.mt-5.caja_flotante_azul
       p(data-aos="fade-up") Según Aranzabal (2001), #[strong “El átomo pentavalente en un cristal de silicio (Si) produce un electrón libre y se puede representar como un signo "+"] encerrado en un círculo y con un punto relleno (que sería el electrón) al lado.”
 
-    p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 2] Semiconductor tipo N energizado
+    p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 2] <em>Semiconductor tipo N energizado</em>
 
     figure.mt-4.col-md-3.m-auto
       img.image_floating(src="@/assets/curso/tema1/3.svg" data-aos="fade-up")
@@ -40,7 +40,7 @@
     .cajon.color-primario.p-5.mt-5.caja_flotante_azul
       p(data-aos="fade-up") Asimismo, de acuerdo con Aranzabal (2001): #[strong “El átomo trivalente sería un signo "-"] encerrado en un círculo y con un punto sin rellenar al lado (que simboliza un hueco).”
 
-    p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 3] Semiconductor tipo P energizado
+    p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 3] <em>Semiconductor tipo P energizado</em>
 
     figure.mt-4.col-md-3.m-auto
       img.image_floating(src="@/assets/curso/tema1/4.svg" data-aos="fade-up")
@@ -53,10 +53,10 @@
 
     .row.mt-2.col-md-11.m-auto
       .col-md-6
-        p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 4] Semiconductor tipo N energizado
+        p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 4] <em>Semiconductor tipo N energizado</em>
 
       .col-md-6
-        p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 5] Semiconductor tipo P energizado
+        p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 5] <em>Semiconductor tipo P energizado</em>
 
       .col-md-6
         .p-5.caja_flotante.caja__mostrar(style="background-color:#B3009D;border-radius:7px;height:100%;cursor:pointer;" @mouseover="eventMostrar1" v-if="!mostrar1")

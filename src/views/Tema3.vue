@@ -24,7 +24,7 @@
 
     p(data-aos="fade-up") También conocidos como transistores bipolares. Los transistores BJT están formados por tres capas de semiconductor y, dependiendo de la conformación de estas capas, hay dos tipos de transistores BJT: uno es el que está conformado por dos capas N y una en medio P, conocido como transistor tipo NPN; el segundo es el conformado por dos capas tipo P y una en el centro de tipo N, también conocido como transistor PNP. La capa de la mitad de cualquiera de los dos recibe el nombre de ‘base’ y sus extremos son conocidos como ‘emisor’ y ‘colector’.
 
-    p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 15]  Tipos de transistores
+    p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 15] <em>Tipos de transistores</em>
 
     .col-md-7.mt-5.m-auto
       figure
@@ -40,7 +40,7 @@
           p Según Arboledas (2010): “en un transistor, existen dos uniones PN: una entre emisor y base (EB) y otra entre base y colector (BC). Estas uniones deben polarizarse de tal modo que la unión EB se polarice directamente y la unión BC inversamente”. Esta polarización se puede observar en la figura. 
 
         .col-md-6.mt-5
-          p.p-1(style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 16] Polarización de un transistor NPN
+          p.p-1(style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 16] <em>Polarización de un transistor NPN</em>
           figure.mt-3
             img(src='@/assets/curso/tema3/3.svg', alt='')
             figcaption.mt-2 Nota. Tomada de Arboledas (2010, p.98).
@@ -52,20 +52,20 @@
         .col-md-12
           p.mt-4 Con base en el análisis de las corrientes y las caídas de voltaje asociadas a las cargas o resistencias presentes en un circuito típico de transistor, se tienen ciertas relaciones matemáticas de estas que se pueden observar a continuación.
 
-          p.p-1(style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 17]  Relación de corrientes y voltajes en un circuito con transistor BJT tipo NPN.
+          p.p-1(style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 17] <em>Relación de corrientes y voltajes en un circuito con transistor BJT tipo NPN.</em>
           figure.mt-3.col-md-10.m-auto
             img(src='@/assets/curso/tema3/13.svg', alt='')
 
           p.mt-5 Dependiendo de la relación entre el voltaje de colector emisor versus su corriente de colector resultante de la corriente de base que se inyecta, se puede determinar lo que se conoce como la zona de trabajo del transistor, de la cual pueden distinguirse al menos tres zonas de trabajo:
 
-          p.mt-4 #[strong Zona activa,] en la cual el transistor tiende a amplificar la señal resultante gracias al efecto de la relación de corrientes.
+          p.mt-4 #[strong <em>Zona activa,</em>] en la cual el transistor tiende a amplificar la señal resultante gracias al efecto de la relación de corrientes.
 
-          p #[strong Zona de saturación,] donde el transistor está en la capacidad de conducir la mayor corriente posible.
+          p #[strong <em>Zona de saturación,</em>] donde el transistor está en la capacidad de conducir la mayor corriente posible.
 
-          p #[strong Zona de corte,] que, como su nombre lo indica, es donde la corriente no circula, está cortada.
+          p #[strong <em>Zona de corte,</em>] que, como su nombre lo indica, es donde la corriente no circula, está cortada.
 
         .col-md-12.mt-5
-          p.p-1(style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 18] Zonas de trabajo del transistor BJT.
+          p.p-1(style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 18] <em>Zonas de trabajo del transistor BJT.</em>
           figure.col-md-5.m-auto.mt-4
             img(src='@/assets/curso/tema3/14.svg', alt='')
             figcaption.mt-2 Nota. Tomada de Aranzabal, (2001).
@@ -73,7 +73,7 @@
         .col-md-12.mt-5
           p Cuando el propósito es usar el transistor como un interruptor, el transistor estará operando entre las zonas de saturación y corte, de tal manera que la base del transistor tendrá un circuito o elemento, sensor, etc., que le permitirá regular su corriente lo suficiente para hacer que pase de un estado a otro, de conducir mucha corriente, comportándose como un interruptor cerrado, a que no pase prácticamente ninguna corriente, comportándose como un interruptor abierto.
 
-          p.mt-5.p-1(style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 19] Representación de los efectos eléctricos en un circuito producto en las zonas de corte y saturación de un transistor
+          p.mt-5.p-1(style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 19] <em>Representación de los efectos eléctricos en un circuito producto en las zonas de corte y saturación de un transistor</em>
 
           .row.mt-5.col-md-11.m-auto
             .col-md-12
@@ -96,7 +96,7 @@
 
           p.mt-3 Un ejemplo típico de este tipo de circuitos es un amplificador de emisor común con polarización por divisor de voltaje. Se le llama así porque el emisor resulta común para la referencia de la fuente alterna que inyecta la señal AC al circuito y su polarización de base se obtiene configurando un divisor de tensión que proporciona la corriente de base indicada para poner al transistor en la zona activa. Se puede observar el circuito en la siguiente figura.
 
-          p.mt-5.p-1(style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 20] Circuito típico de un amplificador en emisor común
+          p.mt-5.p-1(style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 20] <em>Circuito típico de un amplificador en emisor común</em>
 
           figure.mt-3
             img(src="@/assets/curso/tema3/9.svg")
@@ -115,7 +115,7 @@
 
     p.mt-4(data-aos="fade-up") #[strong En la siguiente figura se pueden observar los tipos de MOSFET.]
 
-    p.mt-5.p-1(style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 21] Tipos de MOSFET.
+    p.mt-5.p-1(style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 21] <em>Tipos de MOSFET.</em>
 
 
     .row.mt-5.col-md-11.m-auto
@@ -146,7 +146,7 @@
 
     p.mt-5(data-aos="fade-up") Al igual que con el transistor BJT, el MOSFET es ampliamente utilizado como un interruptor controlado eléctricamente, por lo cual también cuenta con una condición de saturación que le permite comportarse como un interruptor cerrado.
 
-    p.mt-5.p-1(style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 22] El transistor MOSFET en conmutación
+    p.mt-5.p-1(style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 22] <em>El transistor MOSFET en conmutación</em>
 
     figure.col-md-9.m-auto.mt-5
       img.image_floating(data-aos="fade-up" src='@/assets/curso/tema3/12.svg', alt='')

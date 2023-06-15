@@ -32,7 +32,7 @@
 
     figcaption.mt-4.col-md-3 Nota.  (a) Tipo NPN (b) Tipo PNP
 
-    h5.mt-5(data-aos="fade-up") A continuación, se presentan los modos de trabajo del transistor.
+    h5.mt-5(data-aos="fade-up") A continuación, se presentan los modos de trabajo del transistor:
 
     AcordionA.mt-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row.p-4(titulo="Polarización del transistor")
@@ -58,11 +58,11 @@
 
           p.mt-5 Dependiendo de la relación entre el voltaje de colector emisor versus su corriente de colector resultante de la corriente de base que se inyecta, se puede determinar lo que se conoce como la zona de trabajo del transistor, de la cual pueden distinguirse al menos tres zonas de trabajo:
 
-          p.mt-4 #[strong <em>Zona activa,</em>] en la cual el transistor tiende a amplificar la señal resultante gracias al efecto de la relación de corrientes.
+          p.mt-4 #[strong Zona activa:] en la cual el transistor tiende a amplificar la señal resultante gracias al efecto de la relación de corrientes.
 
-          p #[strong <em>Zona de saturación,</em>] donde el transistor está en la capacidad de conducir la mayor corriente posible.
+          p #[strong Zona de saturación:] donde el transistor está en la capacidad de conducir la mayor corriente posible.
 
-          p #[strong <em>Zona de corte,</em>] que, como su nombre lo indica, es donde la corriente no circula, está cortada.
+          p #[strong Zona de corte:] que como su nombre lo indica, es donde la corriente no circula, está cortada.
 
         .col-md-12.mt-5
           p.p-1(style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 18] <em>Zonas de trabajo del transistor BJT.</em>

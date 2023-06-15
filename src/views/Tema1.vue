@@ -49,7 +49,7 @@
 
     p.mt-5(data-aos="fade-up") Por lo tanto, en un semiconductor dopado tipo N, los electrones aportados por la impureza superan a los huecos, mientras que en un semiconductor tipo P sucede lo contrario, los huecos superan a los electrones generados por la impureza añadida al semiconductor.
 
-    h5.mt-5(data-aos="fade-up") A continuación se describen los tipos de semiconductores.
+    h5.mt-5(data-aos="fade-up") A continuación se describen los tipos de semiconductores:
 
     .row.mt-2.col-md-11.m-auto
       .col-md-6

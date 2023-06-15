@@ -134,20 +134,23 @@ export default {
   },
   complementario: [
     {
-      texto:
-        'López Dorado, A. (2011). Circuitos electrónicos básicos.. Editorial Universidad de Alcalá. ',
+      tema: 'MOSFET',
+      referencia:
+        'López, A. y Martínez, A. (2011). <em>Circuitos Electrónicos Básicos.</em> Universidad de Alcalá.',
       tipo: 'Capítulo del libro',
       link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/53530',
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1l2l4cd/TN_pq_ebook_centralEBC3200776',
     },
     {
-      texto:
-        'García, V. (2012). El Transistor MOSFET. Electrónica Práctica Aplicada [EPA].',
+      tema: 'MOSFET',
+      referencia:
+        'García, V. (2012). <em>El Transistor MOSFET.</em> Electrónica Práctica Aplicada [EPA].',
       tipo: 'Sitio web',
       link: 'https://www.diarioelectronicohoy.com/blog/el-transistor-mosfet',
     },
     {
-      texto: 'SENSORICX. (s. f.). SCR: ¿Qué es y cómo funciona?',
+      tema: 'SCR',
+      referencia: 'SENSORICX. (s. f.). <em>SCR: ¿Qué es y cómo funciona?</em>',
       tipo: 'Sitio web',
       link: 'https://sensoricx.com/electronica-de-potencia/la-guia-maxima-scr/',
     },

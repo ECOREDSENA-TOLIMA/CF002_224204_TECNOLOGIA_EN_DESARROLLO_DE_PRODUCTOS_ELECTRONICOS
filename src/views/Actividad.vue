@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Construyendo el puente de los semiconductores
-        p.mb-4 #[b Objetivo] Familiarizar a los aprendices con los conceptos básicos de los semiconductores
+        p.mb-4 #[b Objetivo:] Familiarizar a los aprendices con los conceptos básicos de los semiconductores
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

@@ -3,12 +3,12 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p El mapa conceptual está estructurado en torno al tema de dispositivos electrónicos. En la parte central del mapa se encuentra el concepto general de dispositivos electrónicos, del cual se desprenden ramas que representan los diferentes temas relacionados con el mismo. En la primera rama, se encuentra la naturaleza de los semiconductores. En la segunda rama, se desarrolla el tema de los diodos, incluyendo el diodo ideal, circuitos con diodos y diodos de propósito especial. En la tercera rama, se presenta el tema de los transistores, incluyendo el transistor BJT y el transistor MOSFET. En la cuarta rama, se encuentra el tema de los tiristores. Por último, en la quinta rama, se aborda el software de simulación. En cada rama se incluyen los conceptos técnicos relevantes de manera breve y clara, lo que permite tener una visión general de los diferentes temas relacionados con dispositivos electrónicos.
+    p En el componente CF02 "Dispositivos electrónicos" se describe la naturaleza de los semiconductores, los cuales son materiales que tienen una conductividad eléctrica intermedia entre los conductores y los aislantes. Los semiconductores son ampliamente utilizados en la fabricación de dispositivos electrónicos como diodos, transistores y tiristores, que permiten controlar el flujo de corriente eléctrica. También se menciona el uso de <em>software</em> de simulación para diseñar y probar circuitos electrónicos antes de su fabricación.
 
     .row.justify-content-center
-      .col-lg-10.mb-5
+      .col-lg-12.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.png", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono

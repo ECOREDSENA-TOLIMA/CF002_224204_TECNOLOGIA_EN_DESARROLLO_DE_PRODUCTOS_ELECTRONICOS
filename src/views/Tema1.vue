@@ -52,7 +52,7 @@
     h5.mt-5(data-aos="fade-up") A continuación se describen los tipos de semiconductores:
 
     .row.mt-2.justify-content-center.mb-5
-      .col-md-5.col-12.mt-4.mb-5
+      .col-md-5.col-12.mt-5.mb-5
         p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 4] <em>Semiconductor tipo N energizado</em>
 
         .p-5.caja_flotante.caja__mostrar(style="background-color:#B3009D;border-radius:7px;height:100%;cursor:pointer;" @mouseover="eventMostrar1" v-if="!mostrar1")
@@ -68,7 +68,7 @@
           figure.mt-5
             img.imagen_flotante_animada(src="@/assets/curso/tema1/5.svg")
 
-      .col-md-5.col-12.mt-4.mb-5
+      .col-md-5.col-12.mt-5.mb-5
         p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 5] <em>Semiconductor tipo P energizado</em>
         
         .p-5.caja_flotante.caja__mostrar(style="background-color:#3C0061;border-radius:7px;height:100%;cursor:pointer;" @mouseover="eventMostrar2" v-if="!mostrar2")

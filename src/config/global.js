@@ -141,23 +141,15 @@ export default {
     {
       tema: 'MOSFET',
       referencia:
-        'López, A. y Martínez, A. (2011). <em>Circuitos Electrónicos Básicos.</em> Universidad de Alcalá.',
-      tipo: 'Capítulo del libro',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1l2l4cd/TN_pq_ebook_centralEBC3200776',
-    },
-    {
-      tema: 'MOSFET',
-      referencia:
-        'García, V. (2012). <em>El Transistor MOSFET.</em> Electrónica Práctica Aplicada [EPA].',
+        'García, V. (2012). El Transistor MOSFET. Electrónica Práctica Aplicada [EPA].',
       tipo: 'Sitio web',
       link: 'https://www.diarioelectronicohoy.com/blog/el-transistor-mosfet',
     },
     {
       tema: 'SCR',
-      referencia: 'SENSORICX. (s. f.). <em>SCR: ¿Qué es y cómo funciona?</em>',
+      referencia: 'SENSORICX. (s. f.). SCR: ¿Qué es y cómo funciona?',
       tipo: 'Sitio web',
-      link: 'https://sensoricx.com/electronica-de-potencia/la-guia-maxima-scr/',
+      link: 'https://sensoricx.com/electronica-de-potencia/scr/',
     },
   ],
   glosario: [
@@ -213,7 +205,7 @@ export default {
     {
       referencia:
         'Tutoriales de electrónica básica. (s. f.). Tutoriales de electrónica básica.',
-      link: 'http://tutorialesdeelectronicabasica.blogspot.com/',
+      link: 'https://www.electronicafacil.net/tutoriales/',
     },
   ],
   creditos: [
@@ -236,40 +228,41 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Ángela Rocío Sánchez Ruiz',
-          cargo: 'Experto Temático',
-          centro: 'Centro de Electricidad, Electrónica y Telecomunicaciones',
+          nombre: 'Ángela Rocío Sánchez Ruiz ',
+          cargo: 'Experto Técnico ',
+          centro:
+            'Regional Distrito Capital Centro de Electricidad, Electrónica y Telecomunicaciones.',
         },
         {
-          nombre: 'Miroslava González H.',
-          cargo: 'Diseñador y Evaluador Instruccional',
-          centro: 'Centro de Gestión Industrial',
+          nombre: 'Miroslava González H. ',
+          cargo: 'Diseñador y Evaluador Instruccional ',
+          centro: 'Regional Distrito Capital Centro de Gestión Industrial',
         },
         {
-          nombre: 'Juan Gilberto Giraldo Cortés',
+          nombre: 'Sergio Augusto Ardila Ortiz',
           cargo: 'Diseñador Instruccional',
-          centro: '',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Álix Cecilia Chinchilla Rueda',
-          cargo: 'Evaluadora Instruccional',
-          centro: 'Centro de Gestión Industrial',
+          nombre: 'Alix Cecilia Chinchilla Rueda ',
+          cargo: 'Evaluadora Instruccional ',
+          centro: 'Regional Distrito Capital Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor Pedagógico ',
+          centro:
+            'Regional Santander Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Viviana Esperanza Herrera Quiñones',
           cargo: 'Asesora Metodológica',
-          centro: 'Centro de Comercio y Servicios',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano',
-          cargo: 'Asesor Pedagógico',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Darío González',
-          cargo: 'Revisión y Corrección de Estilo',
-          centro: 'Regional Tolima - Centro Agropecuario La Granja',
+          nombre: 'Darío González ',
+          cargo: 'Revisión y Corrección de Estilo ',
+          centro: 'Regional Tolima Centro Agropecuario La Granja',
         },
       ],
     },
@@ -277,12 +270,12 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'José Jaime Luis Tang',
+          nombre: 'José Jaime Luis Tang Pinzón',
           cargo: 'Diseñador Web',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Francisco José Vásquez Suárez',
+          nombre: 'Francisco Javier Vásquez Suárez',
           cargo: 'Desarrollador Fullstack',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
@@ -293,11 +286,16 @@ export default {
         },
         {
           nombre: 'Nelson Iván Vera Briceño',
-          cargo: 'Animador y Producción Audiovisual',
+          cargo: 'Producción audiovisual',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Sebastián Trujillo Afanador',
+          nombre: 'Oleg Litvin',
+          cargo: 'Animador ',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Sebastián Trujilo Afanador',
           cargo: 'Actividad Didáctica',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },

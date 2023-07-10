@@ -29,7 +29,7 @@
     p.mt-5(data-aos="fade-up") Después de realizar el proceso de dopaje, se obtienen como resultado dos tipos de semiconductores: tipo P y tipo N. #[strong Los tipo P] son semiconductores cuyo dopaje da como resultado un material que posee más huecos que electrones, #[strong y los tipo N] son semiconductores que poseen más electrones libres.
 
     .cajon.color-primario.p-5.mt-5.caja_flotante_azul
-      p(data-aos="fade-up") Según Aranzabal (2001), #[strong “El átomo pentavalente en un cristal de silicio (Si) produce un electrón libre y se puede representar como un signo "+"] encerrado en un círculo y con un punto relleno (que sería el electrón) al lado.”
+      p(data-aos="fade-up") Según Aranzabal (2001), “El átomo pentavalente en un cristal de silicio (Si) produce un electrón libre y se puede representar como un signo + encerrado en un círculo y con un punto relleno (que sería el electrón) al lado.”
 
     p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 2] <em>Semiconductor tipo N energizado</em>
 
@@ -38,7 +38,7 @@
       figcaption.mt-2(data-aos="fade-up") Nota. Tomada de Aranzabal (2001).
 
     .cajon.color-primario.p-5.mt-5.caja_flotante_azul
-      p(data-aos="fade-up") Asimismo, de acuerdo con Aranzabal (2001): #[strong “El átomo trivalente sería un signo "-"] encerrado en un círculo y con un punto sin rellenar al lado (que simboliza un hueco).”
+      p(data-aos="fade-up") Asimismo, de acuerdo con Aranzabal (2001) “El átomo trivalente sería un signo - encerrado en un círculo y con un punto sin rellenar al lado (que simboliza un hueco).”
 
     p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 3] <em>Semiconductor tipo P energizado</em>
 
@@ -74,7 +74,7 @@
         .p-5.caja_flotante.caja__mostrar(style="background-color:#3C0061;border-radius:7px;height:100%;cursor:pointer;" @mouseover="eventMostrar2" v-if="!mostrar2")
           h3.text-white.text-center(data-aos="fade-up") Semiconductores tipo P
 
-          p.mt-5.text-white(data-aos="fade-up") Un semiconductor tipo P: “Al aplicarse una tensión, los electrones libres se mueven hacia la izquierda y los huecos lo hacen hacia la derecha. En la figura, los huecos que llegan al extremo derecho del cristal se recombinan con los electrones libres del circuito externo”. (Aranzabal, 2021)
+          p.mt-5.text-white(data-aos="fade-up") Un semiconductor tipo P: “Al aplicarse una tensión, los electrones libres se mueven hacia la izquierda y los huecos lo hacen hacia la derecha. En la figura, los huecos que llegan al extremo derecho del cristal se recombinan con los electrones libres del circuito externo”. Aranzabal, (2021)
 
         .p-5.caja_flotante.caja__mostrar(style="background-color:#F6F6F6;border-radius:7px;height:100%;cursor:pointer;" v-if="mostrar2" @mouseleave="eventSalir2")
           h3.text-center Semiconductores tipo P

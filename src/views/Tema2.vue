@@ -75,7 +75,7 @@
 
     p.mt-3(data-aos="fade-up") #[strong Un diodo ideal permite el paso de corriente en la condición de polarización directa, mientras que en la condición de polarización inversa se comporta como un elemento aislante, impidiendo el paso de corriente, tal como se diagrama en la siguiente figura.]
 
-    p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 9] <em>Efecto en la corriente dependiendo de la polarización del diodo ideal</em>
+    p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #FFD947 solid;") #[strong Figura 9.] <em>Efecto en la corriente dependiendo de la polarización del diodo ideal</em>
 
     .row.mt-5.col-md-6.m-auto.p-3(style="background-color:#F8F8F8")
       .col-md-6.mb-3

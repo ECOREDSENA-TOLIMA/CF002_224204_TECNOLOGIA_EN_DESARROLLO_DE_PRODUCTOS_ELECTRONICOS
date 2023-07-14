@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p En el componente CF02 "Dispositivos electrónicos" se describe la naturaleza de los semiconductores, los cuales son materiales que tienen una conductividad eléctrica intermedia entre los conductores y los aislantes. Los semiconductores son ampliamente utilizados en la fabricación de dispositivos electrónicos como diodos, transistores y tiristores, que permiten controlar el flujo de corriente eléctrica. También se menciona el uso de <em>software</em> de simulación para diseñar y probar circuitos electrónicos antes de su fabricación.
+    p.mb-5 A continuación, se describe el tema principal del componente formativo Dispositivos electrónicos, que permiten la circulación de la electricidad y la manipulación de la corriente eléctrica. Se describe la naturaleza de los semiconductores, los cuales son materiales que tienen una conductividad eléctrica intermedia entre los conductores y los aislantes. Los semiconductores son ampliamente utilizados en la fabricación de dispositivos electrónicos como diodos, transistores y tiristores, que permiten controlar el flujo de corriente eléctrica. También se menciona el uso de software de simulación para diseñar y probar circuitos electrónicos antes de su fabricación.
 
     .row.justify-content-center
       .col-lg-12.mb-5

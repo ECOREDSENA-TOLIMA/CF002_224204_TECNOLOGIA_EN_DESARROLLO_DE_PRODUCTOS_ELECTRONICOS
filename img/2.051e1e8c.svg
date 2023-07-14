@@ -1,0 +1,32 @@
+<svg id="Grupo_99935" data-name="Grupo 99935" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="249.011" height="164.131" viewBox="0 0 249.011 164.131">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_34433" data-name="Rectángulo 34433" width="249.011" height="164.131" fill="none"/>
+    </clipPath>
+  </defs>
+  <line id="Línea_417" data-name="Línea 417" x2="65.503" transform="translate(165.331 45.803)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.644"/>
+  <path id="Trazado_105371" data-name="Trazado 105371" d="M17.857,47.106H146.716v9.509L165.444,45.8,146.716,34.992V44.5H17.857Z" fill="#1d1d1d"/>
+  <g id="Grupo_99932" data-name="Grupo 99932">
+    <g id="Grupo_99931" data-name="Grupo 99931" clip-path="url(#clip-path)">
+      <line id="Línea_418" data-name="Línea 418" y2="84.82" transform="translate(165.523 0)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.644"/>
+    </g>
+  </g>
+  <path id="Trazado_105372" data-name="Trazado 105372" d="M205.747,139.954l9.82-48.348L165.523,67.857" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.644"/>
+  <line id="Línea_419" data-name="Línea 419" x2="44.955" transform="translate(15.391 111.115)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.644"/>
+  <line id="Línea_420" data-name="Línea 420" x2="44.955" transform="translate(15.391 147.908)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.644"/>
+  <line id="Línea_421" data-name="Línea 421" x2="44.955" transform="translate(97.384 111.115)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.644"/>
+  <line id="Línea_422" data-name="Línea 422" x2="44.955" transform="translate(97.384 147.908)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.644"/>
+  <g id="Grupo_99934" data-name="Grupo 99934">
+    <g id="Grupo_99933" data-name="Grupo 99933" clip-path="url(#clip-path)">
+      <path id="Trazado_105373" data-name="Trazado 105373" d="M65.075,110.819a5.551,5.551,0,1,1-5.552-5.552,5.552,5.552,0,0,1,5.552,5.552" fill="#74b8f9"/>
+      <path id="Trazado_105374" data-name="Trazado 105374" d="M102.936,111.115a5.551,5.551,0,1,1-5.552-5.552,5.552,5.552,0,0,1,5.552,5.552" fill="#74b8f9"/>
+      <path id="Trazado_105375" data-name="Trazado 105375" d="M102.936,147.908a5.551,5.551,0,1,1-5.552-5.552,5.552,5.552,0,0,1,5.552,5.552" fill="#e80000"/>
+      <path id="Trazado_105376" data-name="Trazado 105376" d="M65.075,147.908a5.551,5.551,0,1,1-5.552-5.552,5.552,5.552,0,0,1,5.552,5.552" fill="#e80000"/>
+      <line id="Línea_423" data-name="Línea 423" x2="31.296" transform="translate(62.299 147.908)" fill="none" stroke="#e80000" stroke-miterlimit="10" stroke-width="1.644"/>
+      <line id="Línea_424" data-name="Línea 424" y1="18.958" x2="35.086" transform="translate(62.299 90.321)" fill="none" stroke="#74b8f9" stroke-miterlimit="10" stroke-width="1.644"/>
+      <text id="Ánodo" transform="translate(0 28.063)" font-size="13.151" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Ánodo</tspan></text>
+      <text id="Cátodo" transform="translate(206.709 30.009)" font-size="13.151" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Cá</tspan><tspan y="0" letter-spacing="-0.009em">t</tspan><tspan y="0">odo</tspan></text>
+      <text id="Puerta_G_" data-name="Puerta (G)" transform="translate(184.483 160.573)" font-size="13.151" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Pue</tspan><tspan y="0" letter-spacing="0.024em">r</tspan><tspan y="0">ta (G)</tspan></text>
+    </g>
+  </g>
+</svg>
